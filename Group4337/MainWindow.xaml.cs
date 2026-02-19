@@ -6,5 +6,12 @@ namespace Group4337
     {
         public MainWindow()
             => InitializeComponent();
+
+        private void CreaterWindowButton_Click(object sender, RoutedEventArgs e)
+        {
+            CreaterWindow window = new CreaterWindow();
+            window.Show();
+            this.Close();
+        }
     }
 }

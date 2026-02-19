@@ -50,9 +50,14 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <!-- Места для добавления элементов управления -->
-
-                <!---->
+                <Button Grid.Row="9"
+                        Content="Перлова 9"
+                        Width="200" 
+                        Height="30"
+                        Foreground="Black"
+                        FontWeight="Bold"
+                        Background="#FFF6DCE6"
+                        Click="CreaterWindowButton_Click"/>
 
             </Grid>
         </Grid>
